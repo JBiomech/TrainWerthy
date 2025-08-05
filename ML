@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head><title>Client ML Report</title></head>
+<body>
+  <h1>Client ML’s Exercise Report</h1>
+  <p>This is a placeholder.</p>
+</body>
+</html>
