@@ -4,7 +4,7 @@ from io import BytesIO
 
 import streamlit as st
 
-st.set_page_config(page_title="James' Workout Diary", page_icon="🏋️", layout="wide")
+st.set_page_config(page_title="James' Workout Diary", layout="wide")
 
 PROGRAM = [
     {
@@ -130,99 +130,99 @@ PROGRAM = [
                     "World's Greatest Stretch x 5 reps per side",
                 ],
                 "exercises": [
-                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12–15", "target": "25–30 kg", "notes": "Stay below max effort."},
-                    {"name": "Assisted Pull-ups (standing on Superbad)", "sets": 3, "reps": "10–12", "target": "Band/height that makes last 2 reps challenging but clean", "notes": "Good posture at top and bottom."},
+                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12-15", "target": "30 kg", "notes": "Stay below max effort."},
+                    {"name": "Assisted Pull-ups (standing on Superband)", "sets": 3, "reps": "10–12", "target": "Band/height that makes last 2 reps challenging but clean", "notes": "Good posture at top and bottom."},
                     {"name": "Push-ups", "sets": 3, "reps": "10–15", "target": "Bodyweight", "notes": "Stop 1 rep before form changes."},
-                    {"name": "Leg Extension", "sets": 3, "reps": "12–15", "target": "30–35 kg", "notes": "Choose the lower end if knee comfort is better there."},
-                    {"name": "Plank", "sets": 3, "reps": "40–50 sec", "target": "Bodyweight", "notes": "Maintain a straight line."},
-                    {"name": "Side Plank", "sets": 2, "reps": "25–35 sec/side", "target": "Bodyweight", "notes": "Shorter holds are fine if cleaner."},
+                    {"name": "Leg Extension", "sets": 3, "reps": "12–15", "target": "35-40 kg", "notes": "Choose the lower end if knee comfort is better there."},
+                    {"name": "Plank", "sets": 3, "reps": "90-120 sec", "target": "Bodyweight", "notes": "Maintain a straight line."},
+                    {"name": "Side Plank", "sets": 2, "reps": "75-90 sec/side", "target": "Bodyweight", "notes": "Shorter holds are fine if cleaner."},
                 ],
             },
             {
                 "id": "w3b",
-                "name": "Session B",
+                "name": "Day 2",
                 "goal": "Solidify squat and press workload",
                 "warmup": [
-                    "Row 5–8 minutes at an easy/moderate pace",
-                    "World's Greatest Stretch x 4–5 reps per side",
+                    "Row 10 minutes at a moderate pace and intesnity (8)",
+                    "World's Greatest Stretch x 5 reps per side",
                 ],
                 "exercises": [
-                    {"name": "Hex Bar Squat", "sets": 4, "reps": "8", "target": "60–65 kg", "notes": "Only progress if previous week stayed crisp."},
-                    {"name": "DB Floor Press", "sets": 4, "reps": "8–10", "target": "17.5–20 kg each", "notes": "Use 20 kg only if the full set is controlled."},
-                    {"name": "Bulgarian Split Squat", "sets": 3, "reps": "12/side", "target": "12.5–15 kg", "notes": "Choose the load that lets both sides match."},
+                    {"name": "Hex Bar Squat", "sets": 4, "reps": "8", "target": "60–65 kg", "notes": "Only progress if previous week went well."},
+                    {"name": "DB Floor Press", "sets": 4, "reps": "8–10", "target": "20-25 kg each", "notes": "Use 25 kg only if the full set is controlled."},
+                    {"name": "Bulgarian Split Squat", "sets": 3, "reps": "12/side", "target": "15-17.5 kg", "notes": "Choose the load that lets both sides match."},
                     {"name": "Crunches", "sets": 3, "reps": "20", "target": "Bodyweight", "notes": "Slow down each rep."},
-                    {"name": "Plank", "sets": 2, "reps": "40 sec", "target": "Bodyweight", "notes": "Optional finisher."},
+                    {"name": "Plank", "sets": 2, "reps": "120 sec", "target": "Bodyweight", "notes": "Optional finisher."},
                 ],
             },
             {
                 "id": "w3c",
-                "name": "Session C",
+                "name": "Day 3",
                 "goal": "Repeat hinge day with slight lift",
                 "warmup": [
-                    "Row 5–8 minutes at an easy/moderate pace",
-                    "World's Greatest Stretch x 4–5 reps per side",
+                    "Row 10 minutes at a moderate pace and intesnity (8)",
+                    "World's Greatest Stretch x 5 reps per side",
                 ],
                 "exercises": [
-                    {"name": "Deadlift", "sets": 4, "reps": "6", "target": "55–60 kg", "notes": "Do not chase the top number if speed slows a lot."},
-                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12", "target": "25–30 kg", "notes": "Steady tempo."},
-                    {"name": "Assisted Pull-ups (standing on Superbad)", "sets": 3, "reps": "8–10", "target": "Same as Week 3 Session A", "notes": "Clean reps beat extra reps."},
+                    {"name": "Deadlift", "sets": 4, "reps": "6", "target": "55–60 kg", "notes": "Do not use the top weight if speed slows a lot."},
+                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12", "target": "30-35 kg", "notes": "Steady tempo."},
+                    {"name": "Assisted Pull-ups (standing on Superband)", "sets": 3, "reps": "8–10", "target": "Same as Week 3 Session A", "notes": "Clean instead of more reps."},
                     {"name": "Sit-ups", "sets": 3, "reps": "15", "target": "6–9 kg ball", "notes": "Use the lower load if it keeps the movement better."},
-                    {"name": "Side Plank", "sets": 2, "reps": "25–35 sec/side", "target": "Bodyweight", "notes": "Keep neck relaxed."},
+                    {"name": "Side Plank", "sets": 2, "reps": "75-90 sec/side", "target": "Bodyweight", "notes": "Keep neck relaxed."},
                 ],
             },
         ],
     },
     {
         "week": 4,
-        "focus": "Consolidate, not test",
+        "focus": "Consolidate",
         "sessions": [
             {
                 "id": "w4a",
-                "name": "Session A",
+                "name": "Day 1",
                 "goal": "Repeat best sustainable version of the month",
                 "warmup": [
-                    "Row 5–8 minutes at an easy/moderate pace",
-                    "World's Greatest Stretch x 4–5 reps per side",
+                    "Row 10 minutes at a moderate pace and intesnity (8)",
+                    "World's Greatest Stretch x 5 reps per side",
                 ],
                 "exercises": [
-                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "10–12", "target": "25–30 kg", "notes": "Repeat the best Week 3 load, no need to push past it."},
-                    {"name": "Assisted Pull-ups (standing on Superbad)", "sets": 3, "reps": "8–12", "target": "Best clean assistance level from the month", "notes": "Keep all reps tidy."},
+                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "10–12", "target": "30-35 kg", "notes": "Repeat the best Week 3 load, no need to push past it."},
+                    {"name": "Assisted Pull-ups (standing on Superband)", "sets": 3, "reps": "8–12", "target": "Best clean assistance level from the month", "notes": "Keep all reps clean."},
                     {"name": "Push-ups", "sets": 3, "reps": "10–15", "target": "Bodyweight", "notes": "Match or slightly beat best clean set."},
-                    {"name": "Leg Extension", "sets": 3, "reps": "12–15", "target": "30–35 kg", "notes": "Comfortable range only."},
-                    {"name": "Plank", "sets": 3, "reps": "40–50 sec", "target": "Bodyweight", "notes": "Strong brace throughout."},
-                    {"name": "Side Plank", "sets": 2, "reps": "25–35 sec/side", "target": "Bodyweight", "notes": "Stop before hips drop."},
+                    {"name": "Leg Extension", "sets": 3, "reps": "12–15", "target": "35-40 kg", "notes": "Comfortable range only."},
+                    {"name": "Plank", "sets": 3, "reps": "120-max sec", "target": "Bodyweight", "notes": "Strong brace throughout."},
+                    {"name": "Side Plank", "sets": 2, "reps": "60-120 sec/side", "target": "Bodyweight", "notes": "Stop before hips drop."},
                 ],
             },
             {
                 "id": "w4b",
-                "name": "Session B",
+                "name": "Day 2",
                 "goal": "Repeat strong, comfortable squat and press",
                 "warmup": [
-                    "Row 5–8 minutes at an easy/moderate pace",
-                    "World's Greatest Stretch x 4–5 reps per side",
+                    "Row 10 minutes at a moderate pace and intesnity (8)",
+                    "World's Greatest Stretch x 5 reps per side",
                 ],
                 "exercises": [
                     {"name": "Hex Bar Squat", "sets": 4, "reps": "6–8", "target": "60–65 kg", "notes": "Use a load that stays powerful, not maximal."},
-                    {"name": "DB Floor Press", "sets": 4, "reps": "8", "target": "17.5–20 kg each", "notes": "Stay 1–2 reps away from failure."},
-                    {"name": "Bulgarian Split Squat", "sets": 3, "reps": "10–12/side", "target": "12.5–15 kg", "notes": "Controlled tempo."},
+                    {"name": "DB Floor Press", "sets": 4, "reps": "8", "target": "22.5-25 kg each", "notes": "Stay 1–2 reps away from failure."},
+                    {"name": "Bulgarian Split Squat", "sets": 3, "reps": "10–12/side", "target": "17.5-20 kg", "notes": "Controlled tempo."},
                     {"name": "Crunches", "sets": 3, "reps": "18–20", "target": "Bodyweight", "notes": "Smooth, consistent reps."},
-                    {"name": "Plank", "sets": 2, "reps": "40 sec", "target": "Bodyweight", "notes": "Optional finisher."},
+                    {"name": "Plank", "sets": 2, "reps": "120-max sec", "target": "Bodyweight", "notes": "Optional finisher."},
                 ],
             },
             {
                 "id": "w4c",
-                "name": "Session C",
-                "goal": "Finish with a clean hinge session",
+                "name": "Day 3",
+                "goal": "Clean hinge session",
                 "warmup": [
-                    "Row 5–8 minutes at an easy/moderate pace",
-                    "World's Greatest Stretch x 4–5 reps per side",
+                    "Row 10 minutes at a moderate pace and intesnity (8)",
+                    "World's Greatest Stretch x 5 reps per side",
                 ],
                 "exercises": [
-                    {"name": "Deadlift", "sets": 4, "reps": "5–6", "target": "55–60 kg", "notes": "Stay with the cleanest strong load from the month."},
-                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12", "target": "25–30 kg", "notes": "Repeat best quality load."},
-                    {"name": "Assisted Pull-ups (standing on Superbad)", "sets": 3, "reps": "8–10", "target": "Best clean assistance level from the month", "notes": "Keep the final reps smooth."},
-                    {"name": "Sit-ups", "sets": 3, "reps": "12–15", "target": "6–9 kg ball", "notes": "Only go heavier if movement stays controlled."},
-                    {"name": "Side Plank", "sets": 2, "reps": "25–35 sec/side", "target": "Bodyweight", "notes": "Finish on good quality."},
+                    {"name": "Deadlift", "sets": 4, "reps": "5–6", "target": "60-65 kg", "notes": "Stay with the cleanest strong load from the month."},
+                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12", "target": "30 kg", "notes": "Repeat best quality load."},
+                    {"name": "Assisted Pull-ups (standing on Superband)", "sets": 3, "reps": "8–10", "target": "Best clean assistance level from the month", "notes": "Keep the final reps smooth."},
+                    {"name": "Sit-ups", "sets": 3, "reps": "15", "target": "9 kg ball", "notes": "Only go heavier (to 9) if movement stays controlled."},
+                    {"name": "Side Plank", "sets": 2, "reps": "60 sec/side", "target": "Bodyweight", "notes": "Finish on good quality."},
                 ],
             },
         ],
@@ -272,7 +272,7 @@ def merge_imported_data(imported: dict) -> dict:
 if "log" not in st.session_state:
     st.session_state.log = build_initial_log()
 
-st.title("🏋️ James' Workout Diary")
+st.title("James' Workout Diary")
 st.caption("4-week programme · 3 sessions per week")
 
 with st.sidebar:
