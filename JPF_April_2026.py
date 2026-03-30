@@ -9,55 +9,55 @@ st.set_page_config(page_title="James' Workout Diary", page_icon="🏋️", layou
 PROGRAM = [
     {
         "week": 1,
-        "focus": "Build rhythm and consistency",
+        "focus": "Let's build on what we know",
         "sessions": [
             {
                 "id": "w1a",
-                "name": "Session A",
+                "name": "Day 1",
                 "goal": "Lower body control + upper body pulling/pushing",
                 "warmup": [
-                    "Row 5–8 minutes at an easy/moderate pace",
-                    "World's Greatest Stretch x 4–5 reps per side",
+                    "Row 10 minutes at a moderate pace and intesnity (8)",
+                    "World's Greatest Stretch x 5 reps per side",
                 ],
                 "exercises": [
-                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "10–12", "target": "20–25 kg", "notes": "Smooth control; stand tall each rep."},
-                    {"name": "Assisted Pull-ups (standing on Superbad)", "sets": 3, "reps": "8–12", "target": "Band/height that allows 1–2 reps in reserve", "notes": "Choose assistance that keeps reps tidy."},
-                    {"name": "Push-ups", "sets": 3, "reps": "8–12", "target": "Bodyweight", "notes": "Elevate hands if needed to keep form solid."},
-                    {"name": "Leg Extension", "sets": 3, "reps": "12–15", "target": "25–30 kg", "notes": "Pause briefly at the top."},
-                    {"name": "Plank", "sets": 3, "reps": "30–40 sec", "target": "Bodyweight", "notes": "Brace through ribs and glutes."},
+                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12/15/15", "target": "25-30 kg", "notes": "Smooth control; stand tall each rep."},
+                    {"name": "Assisted Pull-ups (standing on Superband)", "sets": 3, "reps": "up to 12", "target": "Band/height that allows 1–2 reps in reserve", "notes": "Choose assistance that keeps reps clean."},
+                    {"name": "Push-ups", "sets": 3, "reps": "8/12/12", "target": "Bodyweight", "notes": "Elevate hands if needed to keep form solid."},
+                    {"name": "Leg Extension", "sets": 3, "reps": "15/12/12", "target": "25–30 kg", "notes": "Pause briefly at the top."},
+                    {"name": "Plank", "sets": 3, "reps": "60-90 sec", "target": "Bodyweight", "notes": "Brace through ribs and glutes."},
                     {"name": "Side Plank", "sets": 2, "reps": "20–30 sec/side", "target": "Bodyweight", "notes": "Keep hips stacked."},
                 ],
             },
             {
                 "id": "w1b",
-                "name": "Session B",
+                "name": "Day 2",
                 "goal": "Squat pattern + horizontal press + single-leg strength",
                 "warmup": [
-                    "Row 5–8 minutes at an easy/moderate pace",
-                    "World's Greatest Stretch x 4–5 reps per side",
+                    "Row 10 minutes at a moderate pace and intesnity (8)",
+                    "World's Greatest Stretch x 5 reps per side",
                 ],
                 "exercises": [
-                    {"name": "Hex Bar Squat", "sets": 4, "reps": "8", "target": "50–55 kg", "notes": "Controlled down, strong drive up."},
-                    {"name": "DB Floor Press", "sets": 4, "reps": "8–10", "target": "15–17.5 kg each", "notes": "Leave 1–2 reps in reserve."},
-                    {"name": "Bulgarian Split Squat", "sets": 3, "reps": "10/side", "target": "10–12.5 kg", "notes": "Keep torso tall; move steadily."},
+                    {"name": "Hex Bar Squat", "sets": 4, "reps": "8/12/12/12", "target": "50–55 kg", "notes": "Controlled strong drive up."},
+                    {"name": "DB Floor Press", "sets": 4, "reps": "12", "target": "20 kg each", "notes": "You may drop to less reps toward the last sets."},
+                    {"name": "Bulgarian Split Squat", "sets": 3, "reps": "12/side", "target": "12.5-15 kg", "notes": "Use green band."},
                     {"name": "Crunches", "sets": 3, "reps": "15–20", "target": "Bodyweight", "notes": "Slow squeeze, do not rush."},
-                    {"name": "Plank", "sets": 2, "reps": "30–40 sec", "target": "Bodyweight", "notes": "Optional extra if feeling good."},
+                    {"name": "Plank", "sets": 2, "reps": "60-90 sec", "target": "Bodyweight", "notes": "Optional extra seconds if feeling good."},
                 ],
             },
             {
                 "id": "w1c",
-                "name": "Session C",
+                "name": "Day 3",
                 "goal": "Hip hinge + sit-to-stand + trunk work",
                 "warmup": [
-                    "Row 5–8 minutes at an easy/moderate pace",
-                    "World's Greatest Stretch x 4–5 reps per side",
+                    "Row 10 minutes at a moderate pace and intesnity (8)",
+                    "World's Greatest Stretch x 5 reps per side",
                 ],
                 "exercises": [
-                    {"name": "Deadlift", "sets": 4, "reps": "6–8", "target": "45–50 kg", "notes": "Reset each rep; keep bar close."},
-                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12", "target": "20–25 kg", "notes": "Use the same or slightly lighter than Session A."},
-                    {"name": "Assisted Pull-ups (standing on Superbad)", "sets": 3, "reps": "8–10", "target": "Same assistance as Session A", "notes": "Stop before form breaks."},
-                    {"name": "Sit-ups", "sets": 3, "reps": "12–15", "target": "6 kg ball", "notes": "Exhale on the way up."},
-                    {"name": "Side Plank", "sets": 2, "reps": "20–30 sec/side", "target": "Bodyweight", "notes": "Optional top leg in front for stability."},
+                    {"name": "Deadlift", "sets": 4, "reps": "12/10/8/8", "target": "50 kg", "notes": "Reset each rep; keep bar close."},
+                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12", "target": "35 kg", "notes": "Use the same or slightly lighter than Session A."},
+                    {"name": "Assisted Pull-ups (standing on Superband)", "sets": 3, "reps": "8–10", "target": "Same assistance as Session A", "notes": "Stop before form breaks."},
+                    {"name": "Sit-ups", "sets": 3, "reps": "12–15", "target": "9 kg ball", "notes": "Potentially use DB to secure your feet."},
+                    {"name": "Side Plank", "sets": 2, "reps": "60 sec/side", "target": "Bodyweight", "notes": "Optional extra seconds if you feel good."},
                 ],
             },
         ],
@@ -68,66 +68,66 @@ PROGRAM = [
         "sessions": [
             {
                 "id": "w2a",
-                "name": "Session A",
-                "goal": "Repeat and progress modestly",
+                "name": "Day 1",
+                "goal": "Repeat and progress",
                 "warmup": [
-                    "Row 5–8 minutes at an easy/moderate pace",
-                    "World's Greatest Stretch x 4–5 reps per side",
+                    "Row 10 minutes at a moderate pace and intesnity (8)",
+                    "World's Greatest Stretch x 5 reps per side",
                 ],
                 "exercises": [
-                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12", "target": "22.5–27.5 kg", "notes": "Only add load if Week 1 moved well."},
-                    {"name": "Assisted Pull-ups (standing on Superbad)", "sets": 3, "reps": "10–12", "target": "Slightly less assistance if able", "notes": "Keep range consistent."},
-                    {"name": "Push-ups", "sets": 3, "reps": "10–12", "target": "Bodyweight", "notes": "Elevate less if Week 1 was strong."},
+                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12", "target": "35 kg", "notes": "Only add load if Week 1 moved well."},
+                    {"name": "Assisted Pull-ups (standing on Superband)", "sets": 3, "reps": "10–12", "target": "Slightly less assistance if able", "notes": "Keep range consistent."},
+                    {"name": "Push-ups", "sets": 3, "reps": "12-15", "target": "Bodyweight", "notes": "Perform less if Week 1 was strong."},
                     {"name": "Leg Extension", "sets": 3, "reps": "12–15", "target": "30 kg", "notes": "Controlled squeeze at the top."},
-                    {"name": "Plank", "sets": 3, "reps": "35–45 sec", "target": "Bodyweight", "notes": "Maintain steady breathing."},
-                    {"name": "Side Plank", "sets": 2, "reps": "25–30 sec/side", "target": "Bodyweight", "notes": "Quality over duration."},
+                    {"name": "Plank", "sets": 3, "reps": "90-105 sec", "target": "Bodyweight", "notes": "Maintain steady breathing."},
+                    {"name": "Side Plank", "sets": 2, "reps": "60 sec/side", "target": "Bodyweight", "notes": "Keep your hips up."},
                 ],
             },
             {
                 "id": "w2b",
-                "name": "Session B",
+                "name": "Day 2",
                 "goal": "Build on squat/press confidence",
                 "warmup": [
-                    "Row 5–8 minutes at an easy/moderate pace",
-                    "World's Greatest Stretch x 4–5 reps per side",
+                    "Row 10 minutes at a moderate pace and intesnity (8)",
+                    "World's Greatest Stretch x 5 reps per side",
                 ],
                 "exercises": [
                     {"name": "Hex Bar Squat", "sets": 4, "reps": "8", "target": "55–60 kg", "notes": "Only progress if all Week 1 sets felt controlled."},
-                    {"name": "DB Floor Press", "sets": 4, "reps": "8–10", "target": "17.5–20 kg each", "notes": "Pause lightly on the floor."},
-                    {"name": "Bulgarian Split Squat", "sets": 3, "reps": "10–12/side", "target": "12.5 kg", "notes": "Keep front foot rooted."},
-                    {"name": "Crunches", "sets": 3, "reps": "18–20", "target": "Bodyweight", "notes": "Do not pull the neck."},
-                    {"name": "Plank", "sets": 2, "reps": "35–45 sec", "target": "Bodyweight", "notes": "Optional finisher."},
+                    {"name": "DB Floor Press", "sets": 4, "reps": "8–10", "target": "20-22.5 kg each", "notes": "Pause lightly on the floor."},
+                    {"name": "Bulgarian Split Squat", "sets": 3, "reps": "10–12/side", "target": "17.5 kg", "notes": "Keep front foot/knee stable."},
+                    {"name": "Crunches", "sets": 3, "reps": "20-25", "target": "Bodyweight", "notes": "Do not pull the neck."},
+                    {"name": "Plank", "sets": 2, "reps": "75 sec", "target": "Bodyweight", "notes": "Optional extraa if you feel good."},
                 ],
             },
             {
                 "id": "w2c",
-                "name": "Session C",
+                "name": "Day 3",
                 "goal": "Hinge progression with stable technique",
                 "warmup": [
-                    "Row 5–8 minutes at an easy/moderate pace",
-                    "World's Greatest Stretch x 4–5 reps per side",
+                    "Row 10 minutes at a moderate pace and intesnity (8)",
+                    "World's Greatest Stretch x 5 reps per side",
                 ],
                 "exercises": [
-                    {"name": "Deadlift", "sets": 4, "reps": "6–8", "target": "50–55 kg", "notes": "No grinding reps."},
-                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12", "target": "22.5–27.5 kg", "notes": "Same guidance as Session A."},
-                    {"name": "Assisted Pull-ups (standing on Superbad)", "sets": 3, "reps": "8–10", "target": "Same or slightly less assistance than Week 1", "notes": "Stay smooth."},
+                    {"name": "Deadlift", "sets": 4, "reps": "6–8", "target": "60 kg", "notes": "Potentially lower if grip fails."},
+                    {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12", "target": "35 kg", "notes": "Same guidance as Session A."},
+                    {"name": "Assisted Pull-ups (standing on Superband)", "sets": 3, "reps": "8–10", "target": "Same or slightly less assistance than Week 1", "notes": "Stay smooth."},
                     {"name": "Sit-ups", "sets": 3, "reps": "12–15", "target": "6–9 kg ball", "notes": "Use 9 kg only if 6 kg felt solid."},
-                    {"name": "Side Plank", "sets": 2, "reps": "25–30 sec/side", "target": "Bodyweight", "notes": "Keep shoulders stacked."},
+                    {"name": "Side Plank", "sets": 2, "reps": "60-75 sec/side", "target": "Bodyweight", "notes": "Keep breathing consistently."},
                 ],
             },
         ],
     },
     {
         "week": 3,
-        "focus": "Keep progress gentle and repeatable",
+        "focus": "Keep progressing",
         "sessions": [
             {
                 "id": "w3a",
-                "name": "Session A",
+                "name": "Day 1",
                 "goal": "More confidence with repeated patterns",
                 "warmup": [
-                    "Row 5–8 minutes at an easy/moderate pace",
-                    "World's Greatest Stretch x 4–5 reps per side",
+                    "Row 10 minutes at a moderate pace and intesnity (8)",
+                    "World's Greatest Stretch x 5 reps per side",
                 ],
                 "exercises": [
                     {"name": "Sit to Stand from Bench", "sets": 3, "reps": "12–15", "target": "25–30 kg", "notes": "Stay below max effort."},
@@ -273,10 +273,10 @@ if "log" not in st.session_state:
     st.session_state.log = build_initial_log()
 
 st.title("🏋️ James' Workout Diary")
-st.caption("4-week programme · 3 sessions per week · Python/Streamlit version")
+st.caption("4-week programme · 3 sessions per week")
 
 with st.sidebar:
-    st.header("Diary controls")
+    st.header("Send it back to me")
 
     uploaded = st.file_uploader("Import diary JSON", type=["json"])
     if uploaded is not None:
@@ -301,8 +301,8 @@ with st.sidebar:
     )
 
     st.info(
-        "Client can fill this in, export the JSON file, and send it to you. "
-        "You can re-import it, add coach comments, and export it back."
+        "You can fill this in, export the JSON file, and send it to me. "
+        "I will re-import it, and add comments."
     )
 
 weeks = [f"Week {week['week']}" for week in PROGRAM]
@@ -320,7 +320,7 @@ with col1:
     st.subheader(f"{selected_session['name']} — {selected_session['goal']}")
 
     with st.container(border=True):
-        st.markdown("**Always before the workout**")
+        st.markdown("**Always prior to the workout**")
         for item in selected_session["warmup"]:
             st.write(f"- {item}")
 
@@ -344,7 +344,7 @@ with col1:
                     f"Comments for {exercise['name']}",
                     value=diary["exercises"][idx]["comments"],
                     key=f"comments_{selected_session['id']}_{idx}",
-                    placeholder="How did it feel? Any pain, confidence issue, or win?",
+                    placeholder="How did it feel? Any pain? Tired? Strong?",
                     height=120,
                 )
                 st.session_state.log[selected_session["id"]]["exercises"][idx]["achieved"] = achieved
@@ -367,26 +367,25 @@ with col2:
     st.session_state.log[selected_session["id"]]["completed"] = completed
 
     session_comment = st.text_area(
-        "Client session comments",
+        "Your comments",
         value=diary["session_comment"],
         key=f"session_comment_{selected_session['id']}",
-        placeholder="Example: felt strong on squats, left knee a little stiff, rowing felt easier today.",
+        placeholder="Example: felt strong on squats, lower back a little stiff, Pull-ups felt easier today.",
         height=160,
     )
     st.session_state.log[selected_session["id"]]["session_comment"] = session_comment
 
     coach_comment = st.text_area(
-        "Coach review comments",
+        "My comments",
         value=diary["coach_comment"],
         key=f"coach_comment_{selected_session['id']}",
-        placeholder="Coach can add review comments after importing the diary file.",
+        placeholder="I will add review comments after you've sent the outcomes.",
         height=160,
     )
     st.session_state.log[selected_session["id"]]["coach_comment"] = coach_comment
 
     st.warning(
-        "Suggested effort: finish most working sets with around 1–2 reps left in reserve. "
-        "If anything feels painful or unusually unstable, reduce the load, shorten the range, or stop and note it."
+        "If anything feels painful or unusual, reduce the load, shorten the range, or stop and note it."
     )
 
 st.divider()
