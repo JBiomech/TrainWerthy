@@ -390,8 +390,3 @@ with col2:
     )
 
 st.divider()
-st.markdown(
-    "**Sharing options**: deploy this app and send the client the link. "
-    "The current version is easiest to share using exported/imported diary files. "
-    "If you want live coach/client syncing, the next upgrade would be adding a database."
-)
