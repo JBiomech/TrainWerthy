@@ -272,7 +272,7 @@ def merge_imported_data(imported: dict) -> dict:
 if "log" not in st.session_state:
     st.session_state.log = build_initial_log()
 
-st.title("🏋️ Client Workout Diary")
+st.title("🏋️ James' Workout Diary")
 st.caption("4-week programme · 3 sessions per week · Python/Streamlit version")
 
 with st.sidebar:
