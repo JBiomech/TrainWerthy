@@ -4,7 +4,7 @@ from io import BytesIO
 
 import streamlit as st
 
-st.set_page_config(page_title="Client Workout Diary", page_icon="🏋️", layout="wide")
+st.set_page_config(page_title="James' Workout Diary", page_icon="🏋️", layout="wide")
 
 PROGRAM = [
     {
